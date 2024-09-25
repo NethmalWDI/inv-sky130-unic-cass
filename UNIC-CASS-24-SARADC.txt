@@ -1,0 +1,439 @@
+[09/24/24 01:30:31 PDT] SUBMITTED
+
+
+
+
+
+
+[09/24/24 01:35:30 PDT] STARTED
+
+
+
+
+
+
+[09/24/24 01:35:31 PDT] PROJECT GIT INFO
+Repository: https:/repositories.efabless.com/erandee_j/UNIC-CASS-24-SARADC.git | Branch: main | Commit: d3691fdb12224af9d17d14ab69e87ae751c8730f
+
+
+
+
+
+
+[09/24/24 01:35:31 PDT] EXTRACTING FILES
+Extracting compressed files in: UNIC-CASS-24-SARADC.git
+
+
+
+
+
+
+[09/24/24 01:35:31 PDT] PROJECT TYPE INFO
+analog
+
+
+
+
+
+
+[09/24/24 01:35:31 PDT] PROJECT GDS INFO
+user_analog_project_wrapper: c3bbd321d8e134e18ebb015ae4cd1d8fad84e162
+
+
+
+
+
+
+[09/24/24 01:35:31 PDT] TOOLS INFO
+KLayout: v0.29.2 | Magic: v8.3.471
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] PDKS INFO
+SKY130A: None | Open PDKs: 0fe599b2afb6708d281543108caf8310912f54af
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] START
+Precheck Started, the full log 'precheck.log' will be located in '/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs'
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] PRECHECK SEQUENCE
+Precheck will run the following checks: [Makefile, Top Cell Check, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, Spike Check, Illegal Cellname Check, OEB]
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] STEP UPDATE
+Executing Check 1 of 15: Makefile
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] MAKEFILE CHECK PASSED
+Makefile valid.
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] STEP UPDATE
+Executing Check 2 of 15: Top Cell Check
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] TOP CELL CHECK CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has exactly 1 topcell.
+
+
+
+
+
+
+[09/24/24 01:35:32 PDT] STEP UPDATE
+Executing Check 3 of 15: Consistency
+
+
+
+
+
+
+[09/24/24 01:35:37 PDT] NETLIST CONSISTENCY CHECK PASSED
+user_analog_project_wrapper netlist passed all consistency checks.
+
+
+
+
+
+
+[09/24/24 01:35:37 PDT] CONSISTENCY CHECK PASSED
+The user netlist and the top netlist are valid.
+
+
+
+
+
+
+[09/24/24 01:35:37 PDT] STEP UPDATE
+Executing Check 4 of 15: GPIO-Defines
+
+
+
+
+
+
+[09/24/24 01:35:39 PDT] GPIO-DEFINES CHECK PASSED
+The user verilog/rtl/user_defines.v is valid.
+
+
+
+
+
+
+[09/24/24 01:35:39 PDT] STEP UPDATE
+Executing Check 5 of 15: XOR
+
+
+
+
+
+
+[09/24/24 01:35:43 PDT] XOR CHECK UPDATE
+Total XOR differences: 0, for more details view /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/user_analog_project_wrapper.xor.gds
+
+
+
+
+
+
+[09/24/24 01:35:43 PDT] XOR CHECK PASSED
+The GDS file has no XOR violations.
+
+
+
+
+
+
+[09/24/24 01:35:43 PDT] STEP UPDATE
+Executing Check 6 of 15: Magic DRC
+
+
+
+
+
+
+[09/24/24 01:35:45 PDT] MAGIC DRC CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:35:45 PDT] STEP UPDATE
+Executing Check 7 of 15: Klayout FEOL
+
+
+
+
+
+
+[09/24/24 01:35:48 PDT] KLAYOUT FEOL CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:35:48 PDT] STEP UPDATE
+Executing Check 8 of 15: Klayout BEOL
+
+
+
+
+
+
+[09/24/24 01:35:54 PDT] KLAYOUT BEOL CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:35:54 PDT] STEP UPDATE
+Executing Check 9 of 15: Klayout Offgrid
+
+
+
+
+
+
+[09/24/24 01:35:57 PDT] KLAYOUT OFFGRID CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:35:57 PDT] STEP UPDATE
+Executing Check 10 of 15: Klayout Metal Minimum Clear Area Density
+
+
+
+
+
+
+[09/24/24 01:35:59 PDT] KLAYOUT METAL MINIMUM CLEAR AREA DENSITY CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:35:59 PDT] STEP UPDATE
+Executing Check 11 of 15: Klayout Pin Label Purposes Overlapping Drawing
+
+
+
+
+
+
+[09/24/24 01:36:01 PDT] KLAYOUT PIN LABEL PURPOSES OVERLAPPING DRAWING CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:36:01 PDT] STEP UPDATE
+Executing Check 12 of 15: Klayout ZeroArea
+
+
+
+
+
+
+[09/24/24 01:36:03 PDT] KLAYOUT ZEROAREA CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+
+
+
+
+
+
+[09/24/24 01:36:03 PDT] STEP UPDATE
+Executing Check 13 of 15: Spike Check
+
+
+
+
+
+
+[09/24/24 01:36:05 PDT] SPIKE CHECK CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no spike errors.
+
+
+
+
+
+
+[09/24/24 01:36:05 PDT] STEP UPDATE
+Executing Check 14 of 15: Illegal Cellname Check
+
+
+
+
+
+
+[09/24/24 01:36:05 PDT] ILLEGAL CELLNAME CHECK CHECK PASSED
+The GDS file, user_analog_project_wrapper.gds, has no Illegal Cellnames errors.
+
+
+
+
+
+
+[09/24/24 01:36:05 PDT] STEP UPDATE
+Executing Check 15 of 15: OEB
+
+
+
+
+
+
+[09/24/24 01:36:13 PDT] OEB CHECK PASSED
+The design, user_analog_project_wrapper, has no OEB violations.
+
+
+
+
+
+
+[09/24/24 01:36:13 PDT] FINISH
+Executing Finished, the full log 'precheck.log' can be found in '/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs'
+
+
+
+
+
+
+[09/24/24 01:36:13 PDT] SUCCESS
+All Checks Passed !!!
+
+
+
+
+
+
+[09/24/24 01:36:13 PDT] SUCCEEDED
+STDOUT: Loading Job # 05b08ed1-78e2-41e1-916d-46dbd2d18f95 ...
+STDOUT: Commercial Shuttle MPW Precheck | Starting Job # 05b08ed1-78e2-41e1-916d-46dbd2d18f95 ...
+STDOUT: {{Project Git Info}} Repository: https:/repositories.efabless.com/erandee_j/UNIC-CASS-24-SARADC.git | Branch: main | Commit: d3691fdb12224af9d17d14ab69e87ae751c8730f
+STDOUT: {{EXTRACTING FILES}} Extracting compressed files in: UNIC-CASS-24-SARADC.git
+STDOUT: {{Project Type Info}} analog
+STDOUT: {{Project GDS Info}} user_analog_project_wrapper: c3bbd321d8e134e18ebb015ae4cd1d8fad84e162
+STDOUT: {{Tools Info}} KLayout: v0.29.2 | Magic: v8.3.471
+STDOUT: {{PDKs Info}} SKY130A: None | Open PDKs: 0fe599b2afb6708d281543108caf8310912f54af
+STDOUT: {{START}} Precheck Started, the full log 'precheck.log' will be located in '/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs'
+STDOUT: {{PRECHECK SEQUENCE}} Precheck will run the following checks: [Makefile, Top Cell Check, Consistency, GPIO-Defines, XOR, Magic DRC, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, Klayout Pin Label Purposes Overlapping Drawing, Klayout ZeroArea, Spike Check, Illegal Cellname Check, OEB]
+STDOUT: {{STEP UPDATE}} Executing Check 1 of 15: Makefile
+STDOUT: {{MAKEFILE CHECK PASSED}} Makefile valid.
+STDOUT: {{STEP UPDATE}} Executing Check 2 of 15: Top Cell Check
+STDOUT: Success: Single top cell 'user_analog_project_wrapper' found in the GDS layout.
+STDOUT: {{Top Cell Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has exactly 1 topcell.
+STDOUT: {{STEP UPDATE}} Executing Check 3 of 15: Consistency
+STDOUT: PORTS CHECK PASSED: Netlist user_analog_project_wrapper ports match the golden wrapper ports
+STDOUT: COMPLEXITY CHECK PASSED: Netlist user_analog_project_wrapper contains at least 1 instances (11 instances).
+STDOUT: MODELING CHECK PASSED: Netlist user_analog_project_wrapper is structural.
+STDOUT: LAYOUT CHECK PASSED: The GDS layout for user_analog_project_wrapper matches the provided structural netlist.
+STDOUT: {{NETLIST CONSISTENCY CHECK PASSED}} user_analog_project_wrapper netlist passed all consistency checks.
+STDOUT: {{CONSISTENCY CHECK PASSED}} The user netlist and the top netlist are valid.
+STDOUT: {{STEP UPDATE}} Executing Check 4 of 15: GPIO-Defines
+STDOUT: GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', 'UNIC-CASS-24-SARADC.git/verilog/rtl/user_defines.v', '/opt/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+STDERR: Generating LALR tables
+STDERR: WARNING: 183 shift/reduce conflicts
+STDOUT: GPIO-DEFINES report path: /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/gpio_defines.report
+STDOUT: {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+STDOUT: {{STEP UPDATE}} Executing Check 5 of 15: XOR
+STDOUT: {{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/user_analog_project_wrapper.xor.gds
+STDOUT: {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+STDOUT: {{STEP UPDATE}} Executing Check 6 of 15: Magic DRC
+STDOUT: Found 0 violations
+STDOUT: 0 DRC violations
+STDOUT: {{MAGIC DRC CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 7 of 15: Klayout FEOL
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_feol_check.xml -rd thr=8 -rd feol=true >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_feol_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout FEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 8 of 15: Klayout BEOL
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_beol_check.xml -rd thr=8 -rd beol=true >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_beol_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout BEOL CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 9 of 15: Klayout Offgrid
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/tech-files/sky130A_mr.drc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_offgrid_check.xml -rd thr=8 -rd offgrid=true >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_offgrid_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout Offgrid CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 10 of 15: Klayout Metal Minimum Clear Area Density
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/drc_checks/klayout/met_min_ca_density.lydrc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_met_min_ca_density_check.xml -rd thr=8 >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_met_min_ca_density_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 11 of 15: Klayout Pin Label Purposes Overlapping Drawing
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/drc_checks/klayout/pin_label_purposes_overlapping_drawing.rb.drc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_pin_label_purposes_overlapping_drawing_check.xml -rd thr=8 -rd top_cell_name=user_analog_project_wrapper >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_pin_label_purposes_overlapping_drawing_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout Pin Label Purposes Overlapping Drawing CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 12 of 15: Klayout ZeroArea
+STDOUT: in CUSTOM klayout_gds_drc_check
+STDOUT: run: klayout -b -r /opt/checks/drc_checks/klayout/zeroarea.rb.drc -rd input=UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds -rd topcell=user_analog_project_wrapper -rd report=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/klayout_zeroarea_check.xml -rd thr=8 -rd cleaned_output=/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/user_analog_project_wrapper_no_zero_areas.gds >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/klayout_zeroarea_check.log
+STDOUT: No DRC Violations found
+STDOUT: {{Klayout ZeroArea CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no DRC violations.
+STDOUT: {{STEP UPDATE}} Executing Check 13 of 15: Spike Check
+STDOUT: run: bash /opt/checks/spike_check/gdsArea0 -V -m /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/outputs/reports/spike_check.xml UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds >& /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/spike_check.log
+STDOUT: No Spikes found
+STDOUT: {{Spike Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no spike errors.
+STDOUT: {{STEP UPDATE}} Executing Check 14 of 15: Illegal Cellname Check
+STDOUT: {{Illegal Cellname Check CHECK PASSED}} The GDS file, user_analog_project_wrapper.gds, has no Illegal Cellnames errors.
+STDOUT: {{STEP UPDATE}} Executing Check 15 of 15: OEB
+STDOUT: Loading LVS environment from UNIC-CASS-24-SARADC.git/lvs/user_analog_project_wrapper/lvs_config.json
+STDOUT: Loading LVS environment from /opt/checks/be_checks//tech/sky130A/lvs_config.base.json
+STDOUT: EXTRACT_FLATGLOB : *sky130_fd_pr__*[A-Z]*
+STDOUT: EXTRACT_ABSTRACT : *__fill_* *__fakediode_* *__tapvpwrvgnd_*
+STDOUT: LVS_FLATTEN :
+STDOUT: LVS_NOFLATTEN :
+STDOUT: LVS_IGNORE :
+STDOUT: LVS_SPICE_FILES : /opt/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/spice/*.spice
+STDOUT: LVS_VERILOG_FILES :
+STDOUT: LAYOUT_FILE : UNIC-CASS-24-SARADC.git/gds/user_analog_project_wrapper.gds
+STDOUT: run: run_oeb_check
+STDOUT: OEB output directory: /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95
+STDOUT: WARNING ERC CHECK FAILED, stat=4, see /mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs/OEB_check.log
+STDOUT: {{OEB CHECK PASSED}} The design, user_analog_project_wrapper, has no OEB violations.
+STDOUT: {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/mnt/users_data/jobs/erandee_j/UNIC-CASS-24-SARADC/05b08ed1-78e2-41e1-916d-46dbd2d18f95/logs'
+STDOUT: {{SUCCESS}} All Checks Passed !!!
